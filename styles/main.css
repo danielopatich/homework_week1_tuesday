@@ -14,14 +14,13 @@ main {
 }
 
 .main-text {
-  padding-bottom: 20px;
-  padding-top: 130px;
+  padding: 130px 105px 20px 100px;
   font-size: 30px;
 }
 
 .sub-text {
   font-size: 9px;
-  padding: 100px 0 10px 0;
+  padding: 5px 70px 10px 70px;
 }
 
 .main-text,
@@ -34,13 +33,15 @@ main {
   text-decoration: none;
   color: #fff;
   width: 33%;
+  margin: 0;
+  padding: 0;
 }
 
 .masthead {
   background: #118BC0;
   height: 60px;
-  padding: 10px 10px 0 0;
-  margin: 0 5px 0 0;
+  padding: 45px 10px 0 0;
+  margin: 0 5px 0 5px;
   width: 458px;
 }
 
@@ -58,98 +59,105 @@ main {
   background: #118BC0;
   border-style: solid;
   border-color: #202830;
-  border-width: meduim;
-  max-width: 300px;
-  margin: 50px 0 50px 75px;
+  border-width: thick;
+  max-width: 200px;
+  margin: 20px 0 20px 130px;
+  padding: 10px 10px 0 0;
 
 }
 
 .dash-box {
-  height: 25px;
-  margin: 94px 180px 50px 180px;
+  height: 20px;
+  width: 50px;
+  margin: 200px 205px 100px 205px;
   background: white;
-  padding: 0 10px 0 10px
+  padding: 0 7px 0 7px
 }
 
 .menu-box1 {
-  height: 125px;
-  margin: 64px 100px 50px 100px;
+  height: 70px;
+  margin: 34px 75px 34px 75px;
   background: white;
   padding: 0 10px 0 10px
 }
 
 .menu-box2 {
-  height: 125px;
-  margin: 64px 100px 50px 100px;
+  height: 70px;
+  margin: 34px 75px 34px 75px;
   background: white;
   padding: 0 10px 0 10px
 }
 
 .menu-box3 {
-  height: 125px;
-  margin: 64px 100px 50px 100px;
+  height: 70px;
+  margin: 34px 75px 34px 75px;
   background: white;
   padding: 0 10px 0 10px;
 }
 
 #break-box1{
-  height: 200px;
+  height: 190px;
   background: #E6EEF3;
+  padding-bottom: 25px 0 25px 0;
 }
 
 #scroll-box2 {
-  height: 1750px;
+  height: 1730px;
   background: #D1D3D7;
 }
 
 .mid-box1 {
   height: 225px;
-  margin: 0px 80px 50px 20px;
+  margin: 0px 10px 50px 10px;
   background: white;
   padding: 10px 10px 0 10px
 }
 .mid-box2 {
   height: 225px;
-  margin: 64px 80px 50px 20px;
+  margin: 64px 10px 50px 10px;
   background: white;
   padding: 0 10px 0 10px
 }
 .mid-box3 {
   height: 225px;
-  margin: 64px 80px 50px 20px;
+  margin: 64px 10px 50px 10px;
   background: white;
   padding: 0 10px 0 10px
 }
 .mid-box4 {
   height: 225px;
-  margin: 64px 80px 50px 20px;
+  margin: 64px 10px 50px 10px;
   background: white;
   padding: 0 10px 0 10px
 }
 .mid-box5 {
   height: 225px;
-  margin: 64px 80px 50px 20px;
+  margin: 64px 10px 90px 10px;
   background: white;
-  padding: 0 10px 0 10px
+  padding: 0 50px 0 50px
 }
 .mid-box6 {
   height: 225px;
-  margin: 64px 80px 50px 20px;
+  margin: 110px 10px 30px 10px;
   background: white;
-  padding: 0 10px 0 10px
+  padding: 0 10px 10px 10px
 }
 
 #break-box2 {
-  height: 200px;
+  height: 190px;
   background: #E6EEF3;
+  width: 458px;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .button-box2 {
-    height: 35px;
+    height: 50px;
     background: #118BC0;
-    max-width: 300px;
-    margin: 0 50px 50px 225px;
-    padding: 10px 0 0 0;
+    max-width: 200px;
+    margin: 0 130px 50px 130px;
+    padding: 70px 0 0 100px;
 }
 
 #link-box {
@@ -157,10 +165,25 @@ main {
   background: black;
 }
 
+.link-box2 li {
+  display: inline-block;
+  color: white;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.link-box-text {
+  display: inline-block;
+  margin: 0;
+  color: white;
+  padding: 20px 10px 50px 10px;
+  text-align: center;
+}
+
 .button-box3 {
     height: 25px;
     background: white;
     max-width: 300px;
-    margin: 0 50px 50px 225px;
-    padding: 10px 0 0 0;
+    margin: 0 170px 30px 170px;
+    padding: 10px 0 10px 0;
 }
